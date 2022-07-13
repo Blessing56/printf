@@ -6,7 +6,7 @@
  * @arg: argument passed
  * Return: returns integer
  */
-int print_unsInt(va_list arg)
+int print_unsint2bin(va_list arg)
 {
 	int count = 0, i;
 	int *arr;

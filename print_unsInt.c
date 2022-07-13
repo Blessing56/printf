@@ -1,40 +1,28 @@
 #include "main.h"
-#include <stdlib.h>
 
 /**
- * print_unsInt - function that prints unsigned integer
- * @arg: argument passed
- * Return: returns integer
+ * print_unsInt - print unsigned integers
+ * @arg: argumented passed
+ * Return: len
  */
+
 int print_unsInt(va_list arg)
 {
-	int count = 0, i;
-	int *arr;
-	unsigned int n = va_arg(arg, unsigned int);
-	unsigned int tmp = n;
+	unsigned int n;
+	int div = 1;
+	int len = 0;
+	n = va_arg(arg, unsigned int);
 
-	while (n / 2 != 0)
+	while (n / div > 9)
 	{
-		n/=2;
-		count++;
+		div *= 10;
 	}
-	count++;
-	arr = malloc(count * sizeof(int));
-	if (arr == NULL)
+	while (div != 0)
 	{
-		free(arr);
-		return (0);
+		len = len + _putchar(n / div + '0');
+		n = n % div;
+		div = div / 10;
 	}
-	for (i = 0; i < count; i++)
-	{
-		arr[i] = tmp % 2;
-		tmp /= 2;
-	}
-	for (i = count - 1; i >= 0; i--)
-	{
-		_putchar(arr[i] + '0');
-	}
-	free(arr);
+	return (len);
 
-	return (count);
 }

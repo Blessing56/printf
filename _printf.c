@@ -17,7 +17,8 @@ int print_id(char next, va_list arg)
 		{"s", print_stg},
 		{"d", print_intg},
 		{"i", print_intg},
-		{"b", print_unsInt},
+		{"b", print_unsint2bin},
+		{"u", print_unsInt},
 		{NULL, NULL}
 	};
 
