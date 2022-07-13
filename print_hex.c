@@ -5,7 +5,7 @@
  * @n: num to be converted
  * @alpha: char type A-F or a-f
  * @hex: base 16 being passed
- * Retuen: num of char
+ * Return: num of char
  */
 
 int print_hex(unsigned int n, unsigned int hex, char alpha)
@@ -47,7 +47,7 @@ int print_hexLow(va_list arg)
 
 /**
  * print_hexUpp - prints upper case hex
- * @hexa: argument passed
+ * @arg: argument passed
  * Return: num of char printed
  */
 
