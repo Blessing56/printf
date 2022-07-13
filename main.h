@@ -7,6 +7,8 @@ int _printf(const char *format, ...);
 int print_char(va_list arg);
 int print_stg(va_list arg);
 int print_intg(va_list arg);
+int print_unsInt(va_list arg);
+
 
 /**
  * struct identifierStruct - structure definition of a printTypeStruct
