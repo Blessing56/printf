@@ -22,6 +22,7 @@ int print_id(char next, va_list arg)
 		{"o", print_unsint2oct},
 		{"x", print_hexLow},
 		{"X", print_hexUpp},
+		{"S", print_Str},
 		{NULL, NULL}
 	};
 
