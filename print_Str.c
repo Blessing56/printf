@@ -34,12 +34,11 @@ int print_unsignedIntToHex(unsigned int num, char _case)
 	return (nbrCharacters);
 }
 
-
-/**    
+/**
  * print_Str - prints a string
  * @arg: argument passed
  * Return: a string
- */    
+ */
 
 int print_Str(va_list arg)
 {
