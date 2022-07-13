@@ -3,13 +3,6 @@
 
 
 /**
- * print_Str - prints a string
- * @arg: argument passed
- * Return: a string
- */
-
-
-/**
  * print_unsignedIntToHex - prints unsigned int to hexadecimal.
  * @num: number to print
  * @_case: letter `a` on the case to print it (upper or lower)
@@ -42,6 +35,11 @@ int print_unsignedIntToHex(unsigned int num, char _case)
 }
 
 
+/**    
+ * print_Str - prints a string
+ * @arg: argument passed
+ * Return: a string
+ */    
 
 int print_Str(va_list arg)
 {
