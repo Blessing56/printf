@@ -2,7 +2,7 @@
 #include <stdlib.h>
 
 /**
- * print_unsInt - function that prints octal numbers
+ * print_unsint2oct - function that prints octal numbers
  * @arg: argument passed
  * Return: returns count
  */
@@ -15,7 +15,7 @@ int print_unsint2oct(va_list arg)
 
 	while (n / 8 != 0)
 	{
-		n/=8;
+		n /= 8;
 		count++;
 	}
 	count++;

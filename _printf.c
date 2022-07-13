@@ -19,6 +19,9 @@ int print_id(char next, va_list arg)
 		{"i", print_intg},
 		{"b", print_unsint2bin},
 		{"u", print_unsInt},
+		{"o", print_unsint2oct},
+		{"x", print_hexLow},
+		{"X", print_hexUpp},
 		{NULL, NULL}
 	};
 

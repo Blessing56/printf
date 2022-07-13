@@ -2,7 +2,7 @@
 #include <stdlib.h>
 
 /**
- * print_unsInt - function that prints unsigned integer
+ * print_unsint2bin - function that prints unsigned integer
  * @arg: argument passed
  * Return: returns integer
  */
@@ -15,7 +15,7 @@ int print_unsint2bin(va_list arg)
 
 	while (n / 2 != 0)
 	{
-		n/=2;
+		n /= 2;
 		count++;
 	}
 	count++;
