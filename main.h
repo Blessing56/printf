@@ -15,6 +15,7 @@ int print_hexLow(va_list arg);
 int print_hexUpp(va_list arg);
 int print_Str(va_list arg);
 int print_ptr(va_list arg);
+int print_str_rev(va_list arg);
 
 /**
  * struct identifierStruct - structure definition of a printTypeStruct
