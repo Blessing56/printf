@@ -3,6 +3,9 @@
 
 #include <stdarg.h>
 #include <stdlib.h>
+#include <unistd.h>
+#include <stdio.h>
+
 int _putchar(char c);
 int _printf(const char *format, ...);
 int print_char(va_list arg);
@@ -18,7 +21,7 @@ int print_ptr(va_list arg);
 int print_str_rev(va_list arg);
 int print_rot13(va_list arg);
 int print_buf(char *buf, unsigned int nbuf);
-unsigned int handl_buf(char *buf, char c, unsigned int ibufi;
+unsigned int handl_buf(char *buf, char c, unsigned int ibufi);
 int prinpint(va_list arguments, char *buf, unsigned int ibuf);
 
 
@@ -30,9 +33,9 @@ int prinpint(va_list arguments, char *buf, unsigned int ibuf);
  */
 typedef struct identifierStruct
 {
-char *identifier;
-int (*printer)(va_list);
-} identifierStruct;
+	char *identifier;
+	int (*printer)(va_list);
+}identifierStruct;
 
 
 #endif

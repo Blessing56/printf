@@ -25,7 +25,7 @@ int print_id(char next, va_list arg)
 		{"S", print_Str},
 		{"p", print_ptr},
 		{"r", print_str_rev},
-		{"R", print_rot13},
+		{"R", print_rot13}, 
 		{NULL, NULL}
 	};
 
