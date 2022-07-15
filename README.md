@@ -80,3 +80,10 @@ You don’t have to handle the flag characters
 You don’t have to handle field width
 You don’t have to handle precision
 You don’t have to handle the length modifiers.
+
+13. Print is the sharpest and the strongest weapon of our party
+
+Handle the following custom conversion specifier:
+
+r : prints the reversed string
+
