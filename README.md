@@ -88,6 +88,14 @@ Handle the following flag characters for non-custom conversion specifiers:
 space
 #
 
+8. Sarcasm is lost in print
+
+Handle the following length modifiers for non-custom conversion specifiers:
+
+l
+h
+Conversion specifiers to handle: d, i, u, o, x, X
+
 13. Print is the sharpest and the strongest weapon of our party
 
 Handle the following custom conversion specifier:
