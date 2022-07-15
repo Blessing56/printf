@@ -23,7 +23,7 @@ int print_rot13(va_list arg);
 int print_buf(char *buf, unsigned int nbuf);
 unsigned int handl_buf(char *buf, char c, unsigned int ibufi);
 int prinpint(va_list arguments, char *buf, unsigned int ibuf);
-
+int prinsint(va_list arguments, char *buf, unsigned int ibuf);
 
 
 /**
