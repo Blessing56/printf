@@ -96,6 +96,10 @@ l
 h
 Conversion specifiers to handle: d, i, u, o, x, X
 
+9. Print some money and give it to us for the rain forests
+
+Handle the field width for non-custom conversion specifiers.
+
 13. Print is the sharpest and the strongest weapon of our party
 
 Handle the following custom conversion specifier:
