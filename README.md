@@ -103,6 +103,10 @@ Handle the field width for non-custom conversion specifiers.
 
 Handle the precision for non-custom conversion specifiers.
 
+11. It's depressing when you're still around and your albums are out of print
+
+Handle the 0 flag character for non-custom conversion specifiers
+
 13. Print is the sharpest and the strongest weapon of our party
 
 Handle the following custom conversion specifier:
