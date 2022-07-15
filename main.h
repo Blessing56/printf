@@ -17,6 +17,11 @@ int print_Str(va_list arg);
 int print_ptr(va_list arg);
 int print_str_rev(va_list arg);
 int print_rot13(va_list arg);
+int print_buf(char *buf, unsigned int nbuf);
+unsigned int handl_buf(char *buf, char c, unsigned int ibufi;
+int prinpint(va_list arguments, char *buf, unsigned int ibuf);
+
+
 
 /**
  * struct identifierStruct - structure definition of a printTypeStruct
