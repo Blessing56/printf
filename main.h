@@ -1,7 +1,8 @@
 #ifndef MAIN_H
 #define MAIN_H
-#include <stdarg.h>
 
+#include <stdarg.h>
+#include <stdlib.h>
 int _putchar(char c);
 int _printf(const char *format, ...);
 int print_char(va_list arg);
@@ -13,6 +14,7 @@ int print_unsint2oct(va_list arg);
 int print_hexLow(va_list arg);
 int print_hexUpp(va_list arg);
 int print_Str(va_list arg);
+int print_ptr(va_list arg);
 
 /**
  * struct identifierStruct - structure definition of a printTypeStruct
